@@ -11,6 +11,9 @@ classifiers = [
     "Programming Language :: Python :: Implementation :: PyPy",
 ]
 dynamic = ["version"]
+dependencies = [
+    "pydantic>=2.10.6",
+]
 [project.optional-dependencies]
 tests = [
     "pytest",
